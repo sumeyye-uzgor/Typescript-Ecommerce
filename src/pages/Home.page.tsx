@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
-import { Container, Row, Col } from "react-bootstrap"
-import ProductCard from '../components/ProductCard.component'
+import { Container, Row } from "react-bootstrap"
+import ProductCard from '../components/ProductCard/ProductCard.component'
 import productData from '../db/productData.js'
 import { Product } from '../schemas/product.schema'
 
@@ -18,10 +18,9 @@ function Home() {
                 {
                     products.map(
                         product =>
-                        (<Col xs={11} md={4} lg={3} key={product.id} className="mb-5">
-                            <ProductCard product={product} />
-
-                        </Col>)
+                        (
+                            <ProductCard product={product} key={product.id} />
+                        )
                     )
                 }
             </Row>

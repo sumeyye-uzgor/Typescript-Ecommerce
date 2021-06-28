@@ -1,0 +1,21 @@
+.cartDiv{
+position: absolute;
+bottom: 60px;
+ right: 10px;
+}
+.cartIcon:hover{
+    color:rgba(242, 247, 255, 0.8);
+}
+.cartIcon{
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    color: #f2f7ff;
+} 
+
+.cardBody{
+    background-color: #f2f7ff;
+}
+.cardBody:hover{
+    background-color: rgba(242, 247, 255, 0.8);
+}
