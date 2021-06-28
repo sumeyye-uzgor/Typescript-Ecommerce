@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { Container, Row, Col } from "react-bootstrap"
 import ProductCard from '../components/ProductCard.component'
 import productData from '../db/productData.js'
-import Product from '../schemas/product.schema'
+import { Product } from '../schemas/product.schema'
 
 function Home() {
     const [products, setProducts] = useState<Product[]>([])

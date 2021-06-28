@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/Button"
-import Product from '../schemas/product.schema'
+import { Product } from '../schemas/product.schema'
 import CartIcon from '../assets/CartIcon.asset'
 
 const ProductCard = ({ product }: { product: Product }): JSX.Element => {
