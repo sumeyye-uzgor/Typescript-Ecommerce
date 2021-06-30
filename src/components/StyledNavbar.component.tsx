@@ -17,6 +17,9 @@ function StyledNavbar() {
                         <Link to="/about">
                             About
                         </Link>
+                        <Link to="/contact">
+                            Contact
+                        </Link>
                         {/* <ShoppingBag onMouseEnter width="30px" height="40px" className="cartIcon" /> */}
 
                         <Link to="/checkout"><ShoppingBag width="30px" height="40px" className="cartIcon" /></Link>
