@@ -1,8 +1,8 @@
 import actionTypes from "./actionTypes";
 import { State, Action } from "../schemas/redux.schema";
-import { Product } from "../schemas/product.schema";
+import { CartProduct } from "../schemas/product.schema";
 
-const items: Product[] = []
+const items: CartProduct[] = []
 
 const INITIAL_STATE = {
     category: 'all',
@@ -19,7 +19,17 @@ const reducer = (state = INITIAL_STATE, action: Action): State => {
         case actionTypes.ADD_TO_CART:
             return {
                 ...state,
-                cartItems: [...state.cartItems, action.payload]
+                cartItems: state.cartItems.find(item => item.id === action.payload.id) ? state.cartItems.map(item => item.id === action.payload.id ? { ...item, qty: item.qty + 1 } : item) : [...state.cartItems, { ...action.payload, qty: 1 }]
+            }
+        case actionTypes.DELETE_FROM_CART:
+            return {
+                ...state,
+                cartItems: state.cartItems.filter(item => item.id !== action.payload)
+            }
+        case actionTypes.SET_QUANTITY:
+            return {
+                ...state,
+                cartItems: state.cartItems.map(item => item.id === action.payload.itemId ? { ...item, qty: item.qty + action.payload.qty } : item)
             }
         default:
             return state

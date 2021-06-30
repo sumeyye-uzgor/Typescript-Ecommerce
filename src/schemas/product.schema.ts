@@ -9,3 +9,6 @@ export interface Product {
 export interface ProductDetails extends Product {
     description: string;
 }
+export interface CartProduct extends Product {
+    qty: number;
+}

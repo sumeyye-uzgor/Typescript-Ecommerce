@@ -1,4 +1,4 @@
-import { Product } from "./product.schema";
+import { CartProduct } from "./product.schema";
 
 export interface Action {
     type: string,
@@ -6,5 +6,5 @@ export interface Action {
 }
 export interface State {
     category: string,
-    cartItems: Product[];
+    cartItems: CartProduct[];
 }
