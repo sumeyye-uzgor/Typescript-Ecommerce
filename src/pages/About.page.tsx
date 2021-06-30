@@ -1,8 +1,9 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 function About() {
     return (
-        <div>About  Page</div>
+        <Container>About  Page</Container>
     )
 }
 export default About;
