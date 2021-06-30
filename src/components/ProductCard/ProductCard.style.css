@@ -15,6 +15,7 @@ bottom: 60px;
 
 .cardBody{
     background-color: #f2f7ff;
+    cursor: default;
 }
 .cardBody:hover{
     background-color: rgba(242, 247, 255, 0.8);
