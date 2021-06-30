@@ -3,8 +3,16 @@ import { Card, Col } from "react-bootstrap"
 import { Product } from '../../schemas/product.schema'
 import CartIcon from '../../assets/CartIcon.asset'
 import './ProductCard.style.css'
+import { addToCart } from '../../redux/actions'
+import { useDispatch } from 'react-redux'
+import { createPublicKey } from 'crypto'
 
 const ProductCard = ({ product }: { product: Product }): JSX.Element => {
+    const dispatch = useDispatch()
+
+    function HandleCart() {
+        dispatch(addToCart(product))
+    }
     return (
         <Col xs={11} md={4} lg={3} className="mb-5">
             <Card
@@ -14,7 +22,7 @@ const ProductCard = ({ product }: { product: Product }): JSX.Element => {
                 <Card.Img src={product.image} alt={product.name} height="270px" />
                 <div className="cartDiv">
                     {/* <CartIcon color="#f2f7ff" /> */}
-                    <CartIcon className="cartIcon" />
+                    <CartIcon className="cartIcon" onClick={HandleCart} />
 
                 </div>
 

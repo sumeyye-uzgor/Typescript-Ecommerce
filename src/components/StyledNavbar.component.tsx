@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import { ReactComponent as ShoppingBag } from '../assets/ShoppingBag.svg'
+import { Link } from 'react-router-dom'
 
 function StyledNavbar() {
     return (
@@ -10,11 +11,15 @@ function StyledNavbar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/about">About</Nav.Link>
+                        <Link to="/">
+                            Home
+                        </Link>
+                        <Link to="/about">
+                            About
+                        </Link>
                         {/* <ShoppingBag onMouseEnter width="30px" height="40px" className="cartIcon" /> */}
 
-                        <Nav.Link href="/checkout"><ShoppingBag width="30px" height="40px" className="cartIcon" /></Nav.Link>
+                        <Link to="/checkout"><ShoppingBag width="30px" height="40px" className="cartIcon" /></Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
