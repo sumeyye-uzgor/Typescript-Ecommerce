@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from "react-redux"
 import { Route, Redirect } from "react-router-dom"
 import { Card, Container, Col, Row, Button } from "react-bootstrap";
 import { addToCart } from "../redux/actions"
-import { DetailsProduct } from "../schemas/product.schema";
 import { State } from "../schemas/redux.schema";
 
 
@@ -13,14 +12,14 @@ function Details() {
     const product = useSelector((state: State) => state.detailsProduct)
     return (
         product.id !== -1 ? (
-            <Container>
+            <Container className="my-5">
                 <Row>
                     <Col xs={11}>
                         <Card className="mt-5">
                             <Card.Body className="m-auto" >
                                 <Row className="m-auto">
                                     <Col xs={12} md={4} className="m-auto">
-                                        <Card.Img variant="top" src={product.image} height="350px" style={{ border: "1px solid white", borderRadius: "50px" }} />
+                                        <Card.Img variant="top" src={product.image} height="350px" style={{ border: "1px solid black" }} />
 
                                     </Col>
                                     <Col xs={12} md={8}>

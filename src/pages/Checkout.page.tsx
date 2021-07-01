@@ -2,12 +2,19 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
 import { State } from '../schemas/redux.schema'
-import { deleteFromCart, setQuantity } from '../redux/actions'
+import { deleteFromCart, setQuantity, setDetailsProduct } from '../redux/actions'
+import { useHistory } from 'react-router'
+import { Product } from "../schemas/product.schema";
 
 function Checkout() {
     const dispatch = useDispatch()
     const cartItems = useSelector((state: State) => state.cartItems)
     const cartTotal = cartItems.reduce((acc, item) => acc + item.qty * item.price, 0)
+    const history = useHistory();
+    function handleDetails(product: Product) {
+        dispatch(setDetailsProduct(product))
+        history.push('/details')
+    }
     return (
         <Container>
             <Row className="justify-content-center">
@@ -18,13 +25,13 @@ function Checkout() {
                     {cartItems.length > 0 ? cartItems.map(
                         item => (
                             <Row key={item.id} className="my-3 align-items-center" >
-                                <Col xs={2} >
+                                <Col xs={2} onClick={() => handleDetails(item)} style={{ cursor: "pointer" }}>
                                     <img src={item.image} width="50px" alt="product" />
                                 </Col>
-                                <Col xs={3}>
+                                <Col xs={2} md={3} onClick={() => handleDetails(item)} style={{ cursor: "pointer" }}>
                                     {item.name}
                                 </Col>
-                                <Col xs={3} className="justify-content-center">
+                                <Col xs={4} md={3} className="justify-content-center">
                                     <Row>
                                         <Col xs={1} />
                                         <Col xs={2} onClick={() => dispatch(setQuantity(item.id, 1))} style={{ cursor: "pointer" }}>+</Col>

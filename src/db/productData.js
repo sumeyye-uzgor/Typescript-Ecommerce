@@ -6,7 +6,7 @@ const productData = [
         image: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
         price: 25,
         category: 'hats',
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 2,
@@ -14,7 +14,7 @@ const productData = [
         image: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
         price: 18,
         category: 'hats',
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 3,
@@ -22,7 +22,7 @@ const productData = [
         image: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
         price: 35,
         category: 'hats',
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 4,
@@ -30,7 +30,7 @@ const productData = [
         image: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
         price: 25,
         category: 'hats',
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 5,
@@ -38,7 +38,7 @@ const productData = [
         image: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
         price: 18,
         category: 'hats',
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 6,
@@ -46,7 +46,7 @@ const productData = [
         image: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
         price: 14,
         category: 'hats',
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 7,
@@ -54,7 +54,7 @@ const productData = [
         image: 'https://i.ibb.co/bLB646Z/red-beanie.png',
         price: 18,
         category: 'hats',
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 8,
@@ -62,7 +62,7 @@ const productData = [
         image: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
         price: 14,
         category: 'hats',
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 9,
@@ -70,7 +70,7 @@ const productData = [
         image: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
         price: 16,
         category: 'hats',
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 10,
@@ -78,7 +78,7 @@ const productData = [
         image: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
         price: 220,
         category: "sneakers",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 11,
@@ -86,7 +86,7 @@ const productData = [
         image: 'https://i.ibb.co/dJbG1cT/yeezy.png',
         price: 280,
         category: "sneakers",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 12,
@@ -94,7 +94,7 @@ const productData = [
         image: 'https://i.ibb.co/bPmVXyP/black-converse.png',
         price: 110,
         category: "sneakers",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 13,
@@ -102,7 +102,7 @@ const productData = [
         image: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
         price: 160,
         category: "sneakers",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 14,
@@ -110,7 +110,7 @@ const productData = [
         image: 'https://i.ibb.co/QcvzydB/nikes-red.png',
         price: 160,
         category: "sneakers",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 15,
@@ -118,7 +118,7 @@ const productData = [
         image: 'https://i.ibb.co/fMTV342/nike-brown.png',
         price: 160,
         category: "sneakers",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 16,
@@ -126,7 +126,7 @@ const productData = [
         image: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
         price: 190,
         category: "sneakers",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 17,
@@ -134,7 +134,7 @@ const productData = [
         image: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
         price: 200,
         category: "sneakers",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 18,
@@ -142,7 +142,7 @@ const productData = [
         image: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
         price: 125,
         category: "jackets",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 19,
@@ -150,7 +150,7 @@ const productData = [
         image: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
         price: 90,
         category: "jackets",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 20,
@@ -158,7 +158,7 @@ const productData = [
         image: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
         price: 90,
         category: "jackets",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 21,
@@ -166,7 +166,7 @@ const productData = [
         image: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
         price: 165,
         category: "jackets",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 22,
@@ -174,7 +174,7 @@ const productData = [
         image: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
         price: 185,
         category: "jackets",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 23,
@@ -182,7 +182,7 @@ const productData = [
         image: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
         price: 25,
         category: "women",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 24,
@@ -190,7 +190,7 @@ const productData = [
         image: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
         price: 20,
         category: "women",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 25,
@@ -198,7 +198,7 @@ const productData = [
         image: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
         price: 80,
         category: "women",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 26,
@@ -206,7 +206,7 @@ const productData = [
         image: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
         price: 80,
         category: "women",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 27,
@@ -214,7 +214,7 @@ const productData = [
         image: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
         price: 45,
         category: "women",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 28,
@@ -222,7 +222,7 @@ const productData = [
         image: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
         price: 135,
         category: "women",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 29,
@@ -230,7 +230,7 @@ const productData = [
         image: 'https://i.ibb.co/qBcrsJg/white-vest.png',
         price: 20,
         category: "women",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 30,
@@ -238,7 +238,7 @@ const productData = [
         image: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
         price: 325,
         category: "men",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 31,
@@ -246,7 +246,7 @@ const productData = [
         image: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
         price: 20,
         category: "men",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 32,
@@ -254,7 +254,7 @@ const productData = [
         image: 'https://i.ibb.co/55z32tw/long-sleeve.png',
         price: 25,
         category: "men",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 33,
@@ -262,7 +262,7 @@ const productData = [
         image: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
         price: 25,
         category: "men",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 34,
@@ -270,7 +270,7 @@ const productData = [
         image: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
         price: 40,
         category: "men",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     },
     {
         id: 35,
@@ -278,7 +278,7 @@ const productData = [
         image: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
         price: 25,
         category: "men",
-        decsription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lacus eget tincidunt cursus. Pellentesque commodo diam nec erat lacinia consectetur. Morbi tempus non nibh a iaculis. Fusce molestie at mi luctus tempor. Donec et nunc elementum, feugiat magna a."
     }
 ]
 

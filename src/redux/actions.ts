@@ -1,6 +1,6 @@
 import actionTypes from './actionTypes'
 import { Action } from '../schemas/redux.schema'
-import { Product, DetailsProduct } from '../schemas/product.schema'
+import { Product } from '../schemas/product.schema'
 
 export const setCategory = (categoryName: string): Action => ({
     type: actionTypes.SET_CATEGOTY,
@@ -20,7 +20,7 @@ export const setQuantity = (itemId: number, qty: number): Action => ({
     payload: { itemId, qty }
 })
 
-export const setDetailsProduct = (detailsProduct: DetailsProduct): Action => ({
+export const setDetailsProduct = (detailsProduct: Product): Action => ({
     type: actionTypes.SET_DETAILS_PRODUCT,
     payload: detailsProduct
 })
