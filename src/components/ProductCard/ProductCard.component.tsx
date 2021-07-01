@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Card, Col, Row, Button } from "react-bootstrap"
 import { Product } from '../../schemas/product.schema'
 import './ProductCard.style.css'
-import { addToCart, setDetailsProduct } from '../../redux/actions'
+import { addToCart, setDetailsProduct, openToast } from '../../redux/actions'
 import { useDispatch } from 'react-redux'
 import { useHistory } from 'react-router'
 
@@ -16,6 +16,7 @@ const ProductCard = ({ product }: { product: Product }): JSX.Element => {
     }
     function handleCart() {
         dispatch(addToCart(product))
+        dispatch(openToast({ isCartAction: true, toastProduct: product }))
     }
     return (
         <Col xs={11} md={5} lg={4} className="mb-5">

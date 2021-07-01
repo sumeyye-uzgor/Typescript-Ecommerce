@@ -7,12 +7,14 @@ import Checkout from './pages/Checkout.page'
 import Details from './pages/Details.page'
 import Container from 'react-bootstrap/Container';
 import StyledNavbar from './components/StyledNavbar.component';
+import ToastNotify from './components/ToastNotify.component';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <Container >
       <StyledNavbar />
+      <ToastNotify />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />

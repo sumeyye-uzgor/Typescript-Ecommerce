@@ -11,10 +11,17 @@ export const emptyProduct = {
     price: -1,
     category: "Empty Object"
 }
+
 const INITIAL_STATE = {
     category: 'all',
     cartItems: [...items],
     detailsProduct: emptyProduct,
+    toastInfo: {
+        isToastOpen: false,
+        isCartAction: false,
+        toastMessage: "",
+        toastProduct: emptyProduct,
+    },
 }
 
 const reducer = (state = INITIAL_STATE, action: Action): State => {
@@ -28,6 +35,11 @@ const reducer = (state = INITIAL_STATE, action: Action): State => {
             return {
                 ...state,
                 cartItems: state.cartItems.find(item => item.id === action.payload.id) ? state.cartItems.map(item => item.id === action.payload.id ? { ...item, qty: item.qty + 1 } : item) : [...state.cartItems, { ...action.payload, qty: 1 }]
+            }
+        case actionTypes.SET_CART_EMPTY:
+            return {
+                ...state,
+                cartItems: items
             }
         case actionTypes.DELETE_FROM_CART:
             return {
@@ -43,6 +55,26 @@ const reducer = (state = INITIAL_STATE, action: Action): State => {
             return {
                 ...state,
                 detailsProduct: action.payload,
+            }
+        case actionTypes.OPEN_TOAST:
+            return {
+                ...state,
+                toastInfo: {
+                    isToastOpen: true,
+                    isCartAction: action.payload.isCartAction,
+                    toastProduct: action.payload.isCartAction ? action.payload.toastProduct : emptyProduct,
+                    toastMessage: action.payload.isCartAction ? "Item is added to cart!" : action.payload.toastMessage,
+                }
+            }
+        case actionTypes.CLOSE_TOAST:
+            return {
+                ...state,
+                toastInfo: {
+                    isToastOpen: false,
+                    isCartAction: false,
+                    toastMessage: "",
+                    toastProduct: emptyProduct,
+                },
             }
         default:
             return state

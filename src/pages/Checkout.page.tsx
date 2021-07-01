@@ -1,8 +1,8 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
 import { State } from '../schemas/redux.schema'
-import { deleteFromCart, setQuantity, setDetailsProduct } from '../redux/actions'
+import { deleteFromCart, setQuantity, setDetailsProduct, openToast, setCartEmpty } from '../redux/actions'
 import { useHistory } from 'react-router'
 import { Product } from "../schemas/product.schema";
 
@@ -14,6 +14,10 @@ function Checkout() {
     function handleDetails(product: Product) {
         dispatch(setDetailsProduct(product))
         history.push('/details')
+    }
+    function handleBuy() {
+        dispatch(setCartEmpty())
+        dispatch(openToast({ isCartAction: false, toastMessage: "We will take care of your order!" }))
     }
     return (
         <Container>
@@ -63,7 +67,14 @@ function Checkout() {
                     </Row>
 
                     <Row className="justify-content-end my-2 me-5" style={{ fontSize: "23px" }}>
-                        TOTAL: ${cartTotal}
+                        <Col xs={12} md={6} />
+                        <Col xs={12} md={3}> TOTAL: ${cartTotal}</Col>
+                        <Col xs={12} md={3}>
+                            <Button variant="dark" onClick={handleBuy}>
+                                BUY ALL NOW!
+                            </Button>
+                        </Col>
+
                     </Row>
                 </Col>
             </Row>
