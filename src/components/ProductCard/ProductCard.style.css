@@ -12,10 +12,13 @@ bottom: 60px;
     cursor: pointer;
     color: #f2f7ff;
 } 
+.cardImage{
+    border: 1px solid black;
+}
 
 .cardBody{
-    background-color: #f2f7ff;
     cursor: default;
+    justify-self: baseline;
 }
 .cardBody:hover{
     background-color: rgba(242, 247, 255, 0.8);

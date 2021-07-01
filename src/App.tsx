@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <Container style={{ margin: '0', padding: "0" }}>
+    <Container >
       <StyledNavbar />
       <Switch>
         <Route path="/" exact component={Home} />

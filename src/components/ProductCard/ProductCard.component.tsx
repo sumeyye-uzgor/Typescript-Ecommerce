@@ -1,11 +1,10 @@
 import React from 'react'
-import { Card, Col } from "react-bootstrap"
+import { Card, Col, Row } from "react-bootstrap"
 import { Product } from '../../schemas/product.schema'
 import CartIcon from '../../assets/CartIcon.asset'
 import './ProductCard.style.css'
 import { addToCart } from '../../redux/actions'
 import { useDispatch } from 'react-redux'
-import { createPublicKey } from 'crypto'
 
 const ProductCard = ({ product }: { product: Product }): JSX.Element => {
     const dispatch = useDispatch()
@@ -14,32 +13,30 @@ const ProductCard = ({ product }: { product: Product }): JSX.Element => {
         dispatch(addToCart(product))
     }
     return (
-        <Col xs={11} md={4} lg={3} className="mb-5">
+        <Col xs={11} md={5} lg={4} className="mb-5">
             <Card
                 className="mb-2"
-                bg="dark"
+                bg="white"
+                style={{ height: "350px", border: "1px solid black" }}
+
             >
                 <Card.Img src={product.image} alt={product.name} height="270px" />
                 <div className="cartDiv">
-                    {/* <CartIcon color="#f2f7ff" /> */}
                     <CartIcon className="cartIcon" onClick={HandleCart} />
 
                 </div>
 
-                <Card.Body className="cardBody">
+                <Card.Body className="cardBody d-flex align-items-end justify-content-between">
 
-                    <Card.Text className="d-flex justify-content-between">
-                        <div>
-                            {product.name}
-                        </div>
-                        <div>
-                            &#36;{product.price}
-                        </div>
-                    </Card.Text>
-                    {/* <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk
-                    of the card's content.
-                </Card.Text> */}
+                    <Row>
+                        {product.name}
+
+                    </Row>
+                    <Row>
+
+                        &#36;{product.price}
+                    </Row>
+
                 </Card.Body>
             </Card>
         </Col>

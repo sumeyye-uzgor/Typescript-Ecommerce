@@ -22,7 +22,7 @@ function Home() {
             <Row className="justify-content-center my-5" style={{ fontSize: "30px" }}>
                 {category === 'all' ? 'ALL PRODUCTS' : category.toUpperCase()}
             </Row>
-            <Row>
+            <Row className="justify-content-center">
                 {
                     products.map(
                         product =>
