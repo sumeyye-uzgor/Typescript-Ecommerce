@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Card, Col, Row, Button, Dropdown, Container } from "react-bootstrap"
+import { Col, Row, Button, Container } from "react-bootstrap"
 import { ReactComponent as ShoppingBag } from '../../assets/ShoppingBag.svg'
 import { useSelector } from 'react-redux'
 import { useHistory } from 'react-router'
