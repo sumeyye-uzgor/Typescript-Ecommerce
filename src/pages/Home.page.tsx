@@ -6,8 +6,10 @@ import { Product } from '../schemas/product.schema'
 import HomeLayout from '../components/HomeLayout.component'
 import { useSelector } from 'react-redux'
 import { State } from '../schemas/redux.schema'
+import { Row } from 'react-bootstrap'
 
 function Home() {
+    const titles = { all: 'All Products', hats: 'Hats', sneakers: 'Sneakers', jackets: "Jackets", men: 'Men', women: "Women" }
     const [products, setProducts] = useState<Product[]>([])
     const category = useSelector((state: State) => state.category)
 
@@ -17,14 +19,20 @@ function Home() {
             setProducts(category === 'all' ? productData : productData.filter(item => item.category === category)), [category])
     return (
         <HomeLayout>
-            {
-                products.map(
-                    product =>
-                    (
-                        <ProductCard product={product} key={product.id} />
+            <Row className="justify-content-center my-5" style={{ fontSize: "30px" }}>
+                {category === 'all' ? 'ALL PRODUCTS' : category.toUpperCase()}
+            </Row>
+            <Row>
+                {
+                    products.map(
+                        product =>
+                        (
+                            <ProductCard product={product} key={product.id} />
+                        )
                     )
-                )
-            }
+                }
+            </Row>
+
         </HomeLayout>
     )
 

@@ -7,21 +7,18 @@ import TopMenu from '../components/TopMenu.component'
 function HomeLayout({ children }: { children: React.ReactNode }) {
 
     return (
-        <Container style={{ margin: "0", padding: "0" }}>
-            <Row className="d-flex d-md-none position-fixed" style={{ margin: "0", padding: "0" }}>
+        <Container >
+            <Row className="d-flex d-md-none " style={{ paddingTop: "70px" }}>
                 <TopMenu />
             </Row>
-            <Row >
-                <Col className="d-none d-md-block position-fixed" md={2} style={{ margin: "0", padding: "0" }}>
+            <Row>
+                <Col className="d-none d-md-block position-fixed" md={2} style={{ paddingTop: "70px" }}>
                     <SideMenu />
                 </Col>
-                <Col className="d-none d-md-block" md={1} />
-                <Col xs={12} md={9} style={{ marginTop: "70px" }}>
-                    <Row>
-                        {children}
-                    </Row>
+                <Col className="d-none d-md-block" md={3} />
+                <Col xs={12} md={9} style={{ paddingTop: "70px" }}>
+                    {children}
                 </Col>
-                <Col className="d-none d-md-block" md={1} />
             </Row>
         </Container>
     )

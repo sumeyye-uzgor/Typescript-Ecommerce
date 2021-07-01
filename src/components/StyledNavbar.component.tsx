@@ -1,32 +1,42 @@
 import React from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import { ReactComponent as ShoppingBag } from '../assets/ShoppingBag.svg'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 function StyledNavbar() {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar expand="lg" fixed="top" bg="white" style={{ zIndex: 5 }}>
             <Container>
                 <Navbar.Brand href="/">... Clothing</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Link to="/">
-                            Home
-                        </Link>
-                        <Link to="/about">
-                            About
-                        </Link>
-                        <Link to="/contact">
-                            Contact
-                        </Link>
-                        {/* <ShoppingBag onMouseEnter width="30px" height="40px" className="cartIcon" /> */}
+                        <Nav.Link as="li" >
+                            <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+                                Home
+                            </Link>
+                        </Nav.Link>
+                        <Nav.Link as="li" >
+                            <Link to="/about" style={{ textDecoration: "none", color: "inherit" }}>
+                                About
+                            </Link>
+                        </Nav.Link>
 
-                        <Link to="/checkout"><ShoppingBag width="30px" height="40px" className="cartIcon" /></Link>
+                        <Nav.Link as="li" >
+                            <Link to="/contact" style={{ textDecoration: "none", color: "inherit" }}>
+                                Contact
+                            </Link>
+                        </Nav.Link>
+
+                        {/* <ShoppingBag onMouseEnter width="30px" height="40px" className="cartIcon" /> */}
+                        {/* <Nav.Link as="li" > */}
+                        {/* </Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
+                <Link to="/checkout" style={{ textDecoration: "none", color: "inherit" }}><ShoppingBag width="30px" height="30px" className="cartIcon" /></Link>
+
             </Container>
-        </Navbar>
+        </Navbar >
     )
 }
 
