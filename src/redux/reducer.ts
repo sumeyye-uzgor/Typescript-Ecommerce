@@ -3,10 +3,18 @@ import { State, Action } from "../schemas/redux.schema";
 import { CartProduct } from "../schemas/product.schema";
 
 const items: CartProduct[] = []
-
+export const emptyProduct = {
+    id: -1,
+    name: "Empty Object",
+    image: "Empty Object",
+    description: "Empty Object",
+    price: -1,
+    category: "Empty Object"
+}
 const INITIAL_STATE = {
     category: 'all',
     cartItems: [...items],
+    detailsProduct: emptyProduct,
 }
 
 const reducer = (state = INITIAL_STATE, action: Action): State => {
@@ -30,6 +38,11 @@ const reducer = (state = INITIAL_STATE, action: Action): State => {
             return {
                 ...state,
                 cartItems: state.cartItems.map(item => item.id === action.payload.itemId ? { ...item, qty: item.qty + action.payload.qty } : item)
+            }
+        case actionTypes.SET_DETAILS_PRODUCT:
+            return {
+                ...state,
+                detailsProduct: action.payload,
             }
         default:
             return state

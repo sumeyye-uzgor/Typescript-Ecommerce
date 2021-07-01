@@ -6,9 +6,11 @@ export interface Product {
     price: number;
     category: string;
 }
-export interface ProductDetails extends Product {
+
+export interface DetailsProduct extends Product {
     description: string;
 }
+
 export interface CartProduct extends Product {
     qty: number;
 }
