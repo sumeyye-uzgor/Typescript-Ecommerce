@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux"
-import { Route, Redirect } from "react-router-dom"
+import { Redirect } from "react-router-dom"
 import { Card, Container, Col, Row, Button } from "react-bootstrap";
 import { addToCart } from "../redux/actions"
 import { State } from "../schemas/redux.schema";

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Card, Col, Row, Button } from "react-bootstrap"
 import { Product } from '../../schemas/product.schema'
-import CartIcon from '../../assets/CartIcon.asset'
 import './ProductCard.style.css'
 import { addToCart, setDetailsProduct } from '../../redux/actions'
 import { useDispatch } from 'react-redux'
