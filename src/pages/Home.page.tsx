@@ -9,7 +9,6 @@ import { State } from '../schemas/redux.schema'
 import { Row } from 'react-bootstrap'
 
 function Home() {
-    const titles = { all: 'All Products', hats: 'Hats', sneakers: 'Sneakers', jackets: "Jackets", men: 'Men', women: "Women" }
     const [products, setProducts] = useState<Product[]>([])
     const category = useSelector((state: State) => state.category)
 

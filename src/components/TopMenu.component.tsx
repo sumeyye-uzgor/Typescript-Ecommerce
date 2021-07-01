@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Row, Col, Accordion, Card, Dropdown, ButtonGroup } from 'react-bootstrap'
+import { Dropdown } from 'react-bootstrap'
 import { useDispatch } from 'react-redux'
 import { setCategory } from '../redux/actions'
 function TopMenu() {

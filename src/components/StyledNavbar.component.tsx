@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import { ReactComponent as ShoppingBag } from '../assets/ShoppingBag.svg'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function StyledNavbar() {
     return (
